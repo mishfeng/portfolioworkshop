@@ -22,14 +22,14 @@ function TwitterIcon() {
   )
 }
 
-const linkedInLink = "https://linkedin.com/in/shenoyvishal";
-const githubLink = "https://github.com/vishalshenoy";
-const twitterLink = "https://www.x.com/vishalshenoy_";
+const linkedin = "https://linkedin.com/in/shenoyvishal";
+const github = "https://github.com/vishalshenoy";
+const twitter = "https://www.x.com/vishalshenoy_";
 const email = "mailto:vnshenoy@ucdavis.edu";
 
-const ucDavisLink = "https://www.ucdavis.edu";
-const aggieWorksLink = "https://aggieworks.org";
-const asaLink = "https://aggiesportsanalytics.com";
+const ucdavis = "https://www.ucdavis.edu";
+const aggieworks = "https://aggieworks.org";
+const asa = "https://aggiesportsanalytics.com";
 
 export default function Page() {
   return (
@@ -38,13 +38,13 @@ export default function Page() {
         Vishal Shenoy
       </h1>
       <p className="mb-6">
-        I am a second year undergraduate student studying Computer Science and Mathematics at <a href={ucDavisLink} target="_blank" className="link">UC Davis</a>. 
+        I am a second year undergraduate student studying Computer Science and Mathematics at <a href={ucdavis} target="_blank" className="link">UC Davis</a>. 
       </p>
       <p className="mb-6">
         I have a strong passion for working on difficult technical problems with a consumer-facing approach. I am always looking for new project ideas and am excited to build cool products.
       </p>
       <p className="mb-6">
-        Currently, I work on software products for UC Davis students as a Software Engineer at <a href={aggieWorksLink} target="_blank" className="link">AggieWorks</a>. I also lead the development of sports-related products as a Project Manager at <a href={asaLink} target="_blank" className="link">Aggie Sports Analytics</a>.
+        Currently, I work on software products for UC Davis students as a Software Engineer at <a href={aggieworks} target="_blank" className="link">AggieWorks</a>. I also lead the development of sports-related products as a Project Manager at <a href={asa} target="_blank" className="link">Aggie Sports Analytics</a>.
       </p>
       <ul className="font-sm mt-10 flex flex-col space-x-0 space-y-2 text-neutral-600 md:flex-row md:space-x-4 md:space-y-0 green">
       <li>
@@ -63,7 +63,7 @@ export default function Page() {
           className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
           rel="noopener noreferrer"
           target="_blank"
-          href={linkedInLink}
+          href={linkedin}
         >
           <LinkedInIcon></LinkedInIcon>
           <p className="ml-2 h-7">LinkedIn</p>
@@ -74,7 +74,7 @@ export default function Page() {
           className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
           rel="noopener noreferrer"
           target="_blank"
-          href={githubLink}
+          href={github}
         >
           <GitHubIcon></GitHubIcon>
           <p className="ml-2 h-7">GitHub</p>
@@ -85,7 +85,7 @@ export default function Page() {
           className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
           rel="noopener noreferrer"
           target="_blank"
-          href={twitterLink}
+          href={twitter}
         >
           <div className="mb-1">
           <TwitterIcon></TwitterIcon>
