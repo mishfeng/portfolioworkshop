@@ -1,7 +1,7 @@
 @import 'tailwindcss';
 
 ::selection {
-  background-color: #0096c7;
+  background-color: #91ADA4;
   color: #fefefe;
 }
 
@@ -35,6 +35,10 @@
   color: inherit;
 }
 
+.green {
+  color: #0E3A3C;
+}
+
 .link:before {
   content: "";
   position: absolute;
@@ -42,7 +46,7 @@
   height: 3px;
   bottom: -3px;
   left: 0;
-  background-image: linear-gradient(to right, #00b4d8, #0096c7);
+  background-image: linear-gradient(to right, #012C2E, #147074);
   opacity: 0.7;
   transition: opacity 0.3s ease-in-out;
 }
@@ -52,12 +56,10 @@
   height: 4px;
 }
 
-
-
 html {
   min-width: 360px;
-  background-color:white; /* Set the background to white */
-  color: black;
+  background-color:#ffffff; /* Set the background to white */
+  color: #222222;
   font-family: sans-serif;
 }
 

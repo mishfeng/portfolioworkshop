@@ -13,25 +13,25 @@ export default function Page() {
     <section>
       <h1 className="font-semibold text-3xl mb-8 tracking-tighter">Experience</h1>
       <a
-            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100 mb-6"
-            rel="noopener noreferrer"
-            target="_blank"
-            href="./resume.pdf"
-          >
-            <EmailIcon></EmailIcon>
-            <p className="ml-2 h-6">Resume</p>
-          </a>
-      <div className="mt-3 mb-8">
-        <p className="text-lg font-semibold tracking-tighter">AggieWorks</p>
-        <p>Software Engineer</p>
-        <p><i>October 2023 - Present</i></p>
+        className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100 mb-6"
+        rel="noopener noreferrer"
+        target="_blank"
+        href="./resume.pdf"
+      >
+        <EmailIcon></EmailIcon>
+        <p className="ml-2 h-6">Resume</p>
+      </a>
+      <div className="mt-3 mb-6">
+        <p className="text-lg font-semibold tracking-tighter green">AggieWorks</p>
+        <p className="mb-1">Software Engineer</p>
+        <p className="mb-1"><i>October 2023 - Present</i></p>
         <p>I am working on the development of <i>aggie.bike</i>, an online directory for UC Davis bike repairpeople. Previously, I contributed to the development <i>AggieExchange</i>, a peer-to-peer online marketplace for UC Davis students. </p>
       </div>
       <div className="mb-8">
-        <p className="text-lg font-semibold tracking-tighter">Aggie Sports Analytics</p>
-        <p>Project Manager</p>
-        <p><i>August 2023 - Present</i></p>
-        <p>I am spearheading the development of the <i>ASA Scoreboard</i>, a sports product that displays live statistics on a Raspberry Pi powered home scoreboard. I also led the development of <i>Hike</i>, an AI-powered fantasy sport chatbot. </p>
+        <p className="text-lg font-semibold tracking-tighter green">Aggie Sports Analytics</p>
+        <p className="mb-1">Project Manager</p>
+        <p className="mb-1"><i>August 2023 - Present</i></p>
+        <p>I am spearheading the development of the <i>ASA Scoreboard</i>, a sports product that displays live statistics on a Raspberry Pi powered home scoreboard. I also led the development of <i>Hike</i>, an AI-powered fantasy sport chatbot which won the 2024 ASA Winter Quarter Case Competition. </p>
       </div>
     </section>
   )

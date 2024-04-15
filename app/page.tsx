@@ -16,9 +16,20 @@ function GitHubIcon() {
   )
 }
 
+function TwitterIcon() {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-.139 9.237c.209 4.617-3.234 9.765-9.33 9.765-1.854 0-3.579-.543-5.032-1.475 1.742.205 3.48-.278 4.86-1.359-1.437-.027-2.649-.976-3.066-2.28.515.098 1.021.069 1.482-.056-1.579-.317-2.668-1.739-2.633-3.26.442.246.949.394 1.486.411-1.461-.977-1.875-2.907-1.016-4.383 1.619 1.986 4.038 3.293 6.766 3.43-.479-2.053 1.08-4.03 3.199-4.03.943 0 1.797.398 2.395 1.037.748-.147 1.451-.42 2.086-.796-.246.767-.766 1.41-1.443 1.816.664-.08 1.297-.256 1.885-.517-.439.656-.996 1.234-1.639 1.697z" fill="currentColor"/></svg>
+  )
+}
+
 const linkedInLink = "https://linkedin.com/in/shenoyvishal";
 const githubLink = "https://github.com/vishalshenoy";
+const twitterLink = "https://www.x.com/vishalshenoy_";
 const email = "mailto:vnshenoy@ucdavis.edu";
+
+const ucDavisLink = "https://www.ucdavis.edu";
+const aggieWorksLink = "https://aggieworks.org";
+const asaLink = "https://aggiesportsanalytics.com";
 
 export default function Page() {
   return (
@@ -27,49 +38,62 @@ export default function Page() {
         Vishal Shenoy
       </h1>
       <p className="mb-6">
-        I am a second year undergraduate student studying Computer Science and Mathematics at <a href="#" className="link">UC Davis</a>. 
+        I am a second year undergraduate student studying Computer Science and Mathematics at <a href={ucDavisLink} target="_blank" className="link">UC Davis</a>. 
       </p>
       <p className="mb-6">
-      I have a strong passion for working on difficult technical problems with a consumer-facing approach. I am always looking for new project ideas and am excited to build cool products.
+        I have a strong passion for working on difficult technical problems with a consumer-facing approach. I am always looking for new project ideas and am excited to build cool products.
       </p>
       <p className="mb-6">
-        Currently, I work on software products for UC Davis students as a Software Engineer at <a href="#" className="link">AggieWorks</a>. I also lead the development of sports-related products as a Project Manager at <a href="#" className="link">Aggie Sports Analytics</a>.
+        Currently, I work on software products for UC Davis students as a Software Engineer at <a href={aggieWorksLink} target="_blank" className="link">AggieWorks</a>. I also lead the development of sports-related products as a Project Manager at <a href={asaLink} target="_blank" className="link">Aggie Sports Analytics</a>.
       </p>
-      <ul className="font-sm mt-8 flex flex-col space-x-0 space-y-2 text-neutral-600 md:flex-row md:space-x-4 md:space-y-0 dark:text-neutral-600">
+      <ul className="font-sm mt-10 flex flex-col space-x-0 space-y-2 text-neutral-600 md:flex-row md:space-x-4 md:space-y-0 green">
       <li>
-          <a
-            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
-            rel="noopener noreferrer"
-            target="_blank"
-            href={email}
-          >
-            <EmailIcon></EmailIcon>
-            <p className="ml-2 h-7">Email</p>
+        <a
+          className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
+          rel="noopener noreferrer"
+          target="_blank"
+          href={email}
+        >
+          <EmailIcon></EmailIcon>
+          <p className="ml-2 h-7">Email</p>
+        </a>
+      </li>
+      <li>
+        <a
+          className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
+          rel="noopener noreferrer"
+          target="_blank"
+          href={linkedInLink}
+        >
+          <LinkedInIcon></LinkedInIcon>
+          <p className="ml-2 h-7">LinkedIn</p>
+        </a>
+      </li>
+      <li>
+        <a
+          className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
+          rel="noopener noreferrer"
+          target="_blank"
+          href={githubLink}
+        >
+          <GitHubIcon></GitHubIcon>
+          <p className="ml-2 h-7">GitHub</p>
           </a>
-        </li>
-        <li>
-          <a
-            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
-            rel="noopener noreferrer"
-            target="_blank"
-            href={linkedInLink}
-          >
-            <LinkedInIcon></LinkedInIcon>
-            <p className="ml-2 h-7">LinkedIn</p>
+      </li>
+      <li>
+        <a
+          className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
+          rel="noopener noreferrer"
+          target="_blank"
+          href={twitterLink}
+        >
+          <div className="mb-1">
+          <TwitterIcon></TwitterIcon>
+          </div>
+          <p className="ml-2 h-7">Twitter</p>
           </a>
-        </li>
-        <li>
-          <a
-            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
-            rel="noopener noreferrer"
-            target="_blank"
-            href={githubLink}
-          >
-            <GitHubIcon></GitHubIcon>
-            <p className="ml-2 h-7">GitHub</p>
-          </a>
-        </li>
-      </ul>
-    </section>
+      </li>
+    </ul>
+  </section>
   )
 }
