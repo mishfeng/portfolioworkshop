@@ -23,7 +23,7 @@ function TwitterIcon() {
 }
 
 const linkedin = "https://linkedin.com/in/fengmichelle";
-const github = "https://github.com/#";
+const github = "https://github.com/mishfeng";
 const twitter = "https://www.x.com/#";
 const email = "mailto:michellefeng153@gmail.com";
 

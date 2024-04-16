@@ -18,23 +18,23 @@ export default function Page() {
         className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100 mb-6"
         rel="noopener noreferrer"
         target="_blank"
-        href="./resume.pdf"
+        href="https://drive.google.com/file/d/1q2eZRDTBfRKLwOJ6sSXwv6fqLIroEvrp/view?usp=sharing"
       >
         <EmailIcon></EmailIcon>
         <p className="ml-2 h-6">Resume</p>
       </a>
 
       <div className="mt-3 mb-6">
-        <p className="text-lg font-semibold tracking-tighter green">AggieWorks</p>
-        <p className="mb-1">Position</p>
-        <p className="mb-1"><i>Month Year - Present</i></p>
-        <p>As a member of this club, I build a lot of cool projects and hang out with a lot of cool people. I have learned a lot from being in this club. </p>
+        <p className="text-lg font-semibold tracking-tighter green">Design Interactive</p>
+        <p className="mb-1">VP Operations</p>
+        <p className="mb-1"><i>Dec 2023 - Present</i></p>
+        <p></p> In this club, I doodle cool stuff. 
       </div>
 
       <div className="mt-3 mb-6">
-        <p className="text-lg font-semibold tracking-tighter green">AggieWorks</p>
-        <p className="mb-1">Position</p>
-        <p className="mb-1"><i>Month Year - Present</i></p>
+        <p className="text-lg font-semibold tracking-tighter green">HackDavis</p>
+        <p className="mb-1">Design Director</p>
+        <p className="mb-1"><i>Nov 2023 - Present</i></p>
         <p>As a member of this club, I build a lot of cool projects and hang out with a lot of cool people. I have learned a lot from being in this club. </p>
       </div>
 
