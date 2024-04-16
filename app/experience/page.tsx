@@ -11,7 +11,9 @@ function EmailIcon() {
 export default function Page() {
   return (
     <section>
+      
       <h1 className="font-semibold text-3xl mb-8 tracking-tighter">Experience</h1>
+      
       <a
         className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100 mb-6"
         rel="noopener noreferrer"
@@ -28,12 +30,14 @@ export default function Page() {
         <p className="mb-1"><i>Month Year - Present</i></p>
         <p>As a member of this club, I build a lot of cool projects and hang out with a lot of cool people. I have learned a lot from being in this club. </p>
       </div>
+
       <div className="mt-3 mb-6">
         <p className="text-lg font-semibold tracking-tighter green">AggieWorks</p>
         <p className="mb-1">Position</p>
         <p className="mb-1"><i>Month Year - Present</i></p>
         <p>As a member of this club, I build a lot of cool projects and hang out with a lot of cool people. I have learned a lot from being in this club. </p>
       </div>
+
     </section>
   )
 }

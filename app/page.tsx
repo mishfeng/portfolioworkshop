@@ -34,9 +34,11 @@ const asa = "https://aggiesportsanalytics.com";
 export default function Page() {
   return (
     <section>
+
       <h1 className="mb-10 text-5xl font-semibold tracking-tighter">
         First Last
       </h1>
+
       <p className="mb-6">
         I am a ________ year undergraduate student studying ___________________ ________ at <a href={ucdavis} target="_blank" className="link">UC Davis</a>. 
       </p>
@@ -44,56 +46,63 @@ export default function Page() {
         I have a strong passion for _____________. Add another sentence here about your interests or drive or passion.
       </p>
       <p className="mb-6">
-        Currently, I work on __________ at <a href={aggieworks} target="_blank" className="link">AggieWorks</a>. I also do _________ at <a href={asa} target="_blank" className="link">Aggie Sports Analytics</a>.
+        Currently, I work on __________ at <a href={aggieworks} target="_blank" className="link">AggieWorks</a>. I also do ______________ at <a href={asa} target="_blank" className="link">Aggie Sports Analytics</a>.
       </p>
+
       <ul className="font-sm mt-10 flex flex-col space-x-0 space-y-2 text-neutral-600 md:flex-row md:space-x-4 md:space-y-0 green">
-      <li>
-        <a
-          className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
-          rel="noopener noreferrer"
-          target="_blank"
-          href={email}
-        >
-          <EmailIcon></EmailIcon>
-          <p className="ml-2 h-7">Email</p>
-        </a>
-      </li>
-      <li>
-        <a
-          className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
-          rel="noopener noreferrer"
-          target="_blank"
-          href={linkedin}
-        >
-          <LinkedInIcon></LinkedInIcon>
-          <p className="ml-2 h-7">LinkedIn</p>
-        </a>
-      </li>
-      <li>
-        <a
-          className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
-          rel="noopener noreferrer"
-          target="_blank"
-          href={github}
-        >
-          <GitHubIcon></GitHubIcon>
-          <p className="ml-2 h-7">GitHub</p>
+       
+        <li>
+          <a
+            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
+            rel="noopener noreferrer"
+            target="_blank"
+            href={email}
+          >
+            <EmailIcon></EmailIcon>
+            <p className="ml-2 h-7">Email</p>
           </a>
-      </li>
-      <li>
-        <a
-          className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
-          rel="noopener noreferrer"
-          target="_blank"
-          href={twitter}
-        >
-          <div className="mb-1">
-          <TwitterIcon></TwitterIcon>
-          </div>
-          <p className="ml-2 h-7">Twitter</p>
+        </li>
+
+        <li>
+          <a
+            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
+            rel="noopener noreferrer"
+            target="_blank"
+            href={linkedin}
+          >
+            <LinkedInIcon></LinkedInIcon>
+            <p className="ml-2 h-7">LinkedIn</p>
           </a>
-      </li>
+        </li>
+
+        <li>
+          <a
+            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
+            rel="noopener noreferrer"
+            target="_blank"
+            href={github}
+          >
+            <GitHubIcon></GitHubIcon>
+            <p className="ml-2 h-7">GitHub</p>
+            </a>
+        </li>
+
+        <li>
+          <a
+            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
+            rel="noopener noreferrer"
+            target="_blank"
+            href={twitter}
+          >
+            <div className="mb-1">
+            <TwitterIcon></TwitterIcon>
+            </div>
+            <p className="ml-2 h-7">Twitter</p>
+            </a>
+        </li>
+
     </ul>
+    
   </section>
   )
 }

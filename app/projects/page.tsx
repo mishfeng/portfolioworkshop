@@ -26,7 +26,9 @@ const link2 = "#";
 export default function Page() {
   return (
     <section>
+
       <h1 className="font-semibold text-3xl mb-8 tracking-tighter">Projects</h1>
+      
       <div className="mb-6">
         <p className="text-lg font-semibold tracking-tighter green">Project Number 1</p>
         <p className="mt-1 mb-1"><i>Month Year - Current</i></p>
@@ -42,6 +44,7 @@ export default function Page() {
           <p className="ml-2 h-6">see project</p>
         </a>
       </div>
+
       <div className="mb-6">
         <p className="text-lg font-semibold tracking-tighter green">Project Number 1</p>
         <p className="mt-1 mb-1"><i>Month Year - Month Year</i></p>
@@ -57,6 +60,7 @@ export default function Page() {
           <p className="ml-2 h-6">see project</p>
         </a>
       </div>
+      
     </section>
   )
 }
