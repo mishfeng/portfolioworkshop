@@ -22,10 +22,10 @@ function TwitterIcon() {
   )
 }
 
-const linkedin = "https://linkedin.com/in/shenoyvishal";
-const github = "https://github.com/vishalshenoy";
-const twitter = "https://www.x.com/vishalshenoy_";
-const email = "mailto:vnshenoy@ucdavis.edu";
+const linkedin = "https://linkedin.com/in/#";
+const github = "https://github.com/#";
+const twitter = "https://www.x.com/#";
+const email = "mailto:#";
 
 const ucdavis = "https://www.ucdavis.edu";
 const aggieworks = "https://aggieworks.org";
@@ -35,16 +35,16 @@ export default function Page() {
   return (
     <section>
       <h1 className="mb-10 text-5xl font-semibold tracking-tighter">
-        Vishal Shenoy
+        First Last
       </h1>
       <p className="mb-6">
-        I am a second year undergraduate student studying Computer Science and Mathematics at <a href={ucdavis} target="_blank" className="link">UC Davis</a>. 
+        I am a ________ year undergraduate student studying ___________________ ________ at <a href={ucdavis} target="_blank" className="link">UC Davis</a>. 
       </p>
       <p className="mb-6">
-        I have a strong passion for working on difficult technical problems with a consumer-facing approach. I am always looking for new project ideas and am excited to build cool products.
+        I have a strong passion for _____________. Add another sentence here about your interests or drive or passion.
       </p>
       <p className="mb-6">
-        Currently, I work on software products for UC Davis students as a Software Engineer at <a href={aggieworks} target="_blank" className="link">AggieWorks</a>. I also lead the development of sports-related products as a Project Manager at <a href={asa} target="_blank" className="link">Aggie Sports Analytics</a>.
+        Currently, I work on __________ at <a href={aggieworks} target="_blank" className="link">AggieWorks</a>. I also do _________ at <a href={asa} target="_blank" className="link">Aggie Sports Analytics</a>.
       </p>
       <ul className="font-sm mt-10 flex flex-col space-x-0 space-y-2 text-neutral-600 md:flex-row md:space-x-4 md:space-y-0 green">
       <li>

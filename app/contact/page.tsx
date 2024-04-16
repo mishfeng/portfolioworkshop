@@ -27,10 +27,10 @@ function TwitterIcon() {
   )
 }
 
-const email = "mailto:vnshenoy@ucdavis.edu";
-const linkedin = "https://www.linkedin.com/in/shenoyvishal";
-const github = "https://www.github.com/vishalshenoy";
-const twitter = "https://www.x.com/vishalshenoy_";
+const email = "mailto:#";
+const linkedin = "https://www.linkedin.com/in/#";
+const github = "https://www.github.com/#";
+const twitter = "https://www.x.com/#";
 
 export default function Page() {
   return (
