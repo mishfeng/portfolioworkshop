@@ -22,10 +22,10 @@ function TwitterIcon() {
   )
 }
 
-const linkedin = "https://linkedin.com/in/#";
+const linkedin = "https://linkedin.com/in/fengmichelle";
 const github = "https://github.com/#";
 const twitter = "https://www.x.com/#";
-const email = "mailto:#";
+const email = "mailto:michellefeng153@gmail.com";
 
 const ucdavis = "https://www.ucdavis.edu";
 const aggieworks = "https://aggieworks.org";
@@ -36,17 +36,17 @@ export default function Page() {
     <section>
 
       <h1 className="mb-10 text-5xl font-semibold tracking-tighter">
-        First Last
+        Michelle Feng
       </h1>
 
       <p className="mb-6">
-        I am a ________ year undergraduate student studying ___________________ ________ at <a href={ucdavis} target="_blank" className="link">UC Davis</a>. 
+        I am a 2nd year undergraduate student studying Design and Communications at <a href={ucdavis} target="_blank" className="link">UC Davis</a>. 
       </p>
       <p className="mb-6">
-        I have a strong passion for _____________. Add another sentence here about your interests or drive or passion.
+        I have a strong passion for UX Design, Product Marketing, and Event Planning. 
       </p>
       <p className="mb-6">
-        Currently, I work on __________ at <a href={aggieworks} target="_blank" className="link">AggieWorks</a>. I also do ______________ at <a href={asa} target="_blank" className="link">Aggie Sports Analytics</a>.
+        Currently, I work on the publicity for <a href="https://picnicday.ucdavis.edu/" target="_blank" className="link">Picnic Day</a>. I also doodle at <a href="https://hackdavis.io/" target="_blank" className="link">HackDavis</a>.
       </p>
 
       <ul className="font-sm mt-10 flex flex-col space-x-0 space-y-2 text-neutral-600 md:flex-row md:space-x-4 md:space-y-0 green">
@@ -87,19 +87,7 @@ export default function Page() {
             </a>
         </li>
 
-        <li>
-          <a
-            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
-            rel="noopener noreferrer"
-            target="_blank"
-            href={twitter}
-          >
-            <div className="mb-1">
-            <TwitterIcon></TwitterIcon>
-            </div>
-            <p className="ml-2 h-7">Twitter</p>
-            </a>
-        </li>
+    
 
     </ul>
     
