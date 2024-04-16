@@ -28,7 +28,7 @@ const twitter = "https://www.x.com/#";
 const email = "mailto:michellefeng153@gmail.com";
 
 const ucdavis = "https://www.ucdavis.edu";
-const aggieworks = "https://aggieworks.org";
+const aggieworks = "https://picnic.org";
 const asa = "https://aggiesportsanalytics.com";
 
 export default function Page() {
